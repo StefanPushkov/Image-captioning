@@ -1,7 +1,7 @@
 # Image-captioning
 
 
-## REPO STRUCTURE:
+### Repo structure:
 <br />
 `ImageCaptioning.ipynb` - main pipeline
 
@@ -18,7 +18,7 @@ Dataset consist of image embeddings (vector with dim=2048) and five captions for
 
 __Model Definition__
 
-![Image of Encoder-Decoder img captioning] (https://miro.medium.com/max/1400/1*LMIw-ZJlKeoBSDhPc5keLg.png)
+![Image of Encoder-Decoder img captioning](https://miro.medium.com/max/1400/1*LMIw-ZJlKeoBSDhPc5keLg.png)
 
 1. Encoder: Pretrained Inveption-v3. 
 
@@ -29,7 +29,9 @@ __Model Definition__
 - Repeat until <eos> token is obtained as the output of the cell.
 
 <br />
+
 ### References
+
 <br />
 Pytorch chatbot tutorial: https://pytorch.org/tutorials/beginner/chatbot_tutorial.html#prepare-data-for-models 
 <br />
