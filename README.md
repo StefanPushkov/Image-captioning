@@ -20,7 +20,7 @@ __Model Definition__
 
 ![Image of Encoder-Decoder img captioning](https://miro.medium.com/max/1400/1*LMIw-ZJlKeoBSDhPc5keLg.png)
 
-1. Encoder: Pretrained Inveption-v3. 
+1. Encoder: Pretrained Inception-v3. 
 
 2. Decoder: LSTM
 - Feed a <sos> (start of a sentence or a word) token to the LSMT cell as an input at time t=0.
